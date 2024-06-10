@@ -1,0 +1,40 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Compiled object files
+*.o
+*.a
+*.out
+
+# Dependencies
+/vendor/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# IDE/editor specific files
+.idea/
+.vscode/
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Coverage reports
+coverage.out
+
+# Build directory
+build/
+firebase-sa.json
