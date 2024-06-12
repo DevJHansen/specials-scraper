@@ -13,6 +13,7 @@ import (
 )
 
 func main() {
+
 	ctx := context.Background()
 	app, _ := firebase.NewFirebaseApp(ctx)
 	specialsScrapingChan := make(chan internal.Special, 100)

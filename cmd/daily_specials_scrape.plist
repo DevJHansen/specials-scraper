@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>daily_specials_scrape</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/local/go/bin/go</string>
+        <string>run</string>
+        <string>/Users/Stizo/Desktop/specials-scraper/cmd/main.go</string>
+    </array>
+    <key>WorkingDirectory</key>
+    <string>/Users/Stizo/Desktop/specials-scraper/cmd</string>
+  <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>11:30</integer>
+        <key>Minute</key>
+        <integer>00</integer>
+    </dict>
+    <key>StandardOutPath</key>
+    <string>/Users/Stizo/Desktop/specials-scraper/cmd/out.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/Stizo/Desktop/specials-scraper/cmd/error.log</string>
+</dict>
+</plist>
